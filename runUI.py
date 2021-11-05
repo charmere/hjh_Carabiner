@@ -37,7 +37,7 @@ global_img_list = [None, None, None, None]
 
 class StartUI():
 
-    def __init__(self, Yolo):
+    def __init__(self):
 
         self.open_camera_ = 0
         app = QApplication(sys.argv)
@@ -406,4 +406,4 @@ class StartUI():
 if __name__ == "__main__":
 
     quene = Queue(5)
-    ui = StartUI(Yolo)
+    ui = StartUI()
