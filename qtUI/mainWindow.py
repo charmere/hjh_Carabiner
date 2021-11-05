@@ -403,7 +403,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
 
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "工业视觉缺陷检测"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "工业视觉缺陷检测 ---- 测试版"))
         self.topCameraLabel.setText(_translate("MainWindow", "上方缺陷数量(处):"))
         self.topCamera.setText(_translate("MainWindow", "0"))
         self.leftCameraLabel.setText(_translate("MainWindow", "左侧缺陷数量(处):"))
