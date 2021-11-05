@@ -59,7 +59,7 @@ class StartUI():
         self._infer_img_num = 0
 
         # 图像获取方式 2 表示 从传感器获取 0 表示不间断获取
-        self.state = 2
+        self.state = 0
 
         self.yolo = Yolo()
 
